@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".view.fragment.RegisterFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Create new account"
+            android:textColor="@color/logo"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:layout_marginBottom="13dp"/>
+
+        <EditText
+            android:id="@+id/name_ET_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/curve_blue"
+            android:hint="Enter your name"
+            android:layout_margin="10dp" />
+
+        <EditText
+            android:id="@+id/phone_ET_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/curve_blue"
+            android:hint="Enter your phone"
+            android:layout_margin="10dp" />
+
+        <EditText
+            android:id="@+id/email_ET_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/curve_blue"
+            android:hint="Enter your email"
+            android:layout_margin="10dp" />
+
+        <EditText
+            android:id="@+id/age_ET_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/curve_blue"
+            android:hint="Enter your age"
+            android:layout_margin="10dp" />
+
+        <EditText
+            android:id="@+id/date_ET_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/curve_blue"
+            android:hint="Enter date"
+            android:layout_margin="10dp" />
+
+        <Spinner
+            android:id="@+id/governorate_SPN_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/curve_blue"
+            android:layout_margin="10dp"/>
+
+        <Spinner
+            android:id="@+id/city_SPN_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/curve_blue"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/passward_ET_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/curve_blue"
+            android:hint="Enter your passward"
+            android:layout_margin="10dp" />
+
+        <EditText
+            android:id="@+id/checkPassward_ET_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/curve_blue"
+            android:hint="Enter your passward again"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/save_BTN_register"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/curve_blue"
+            android:layout_margin="12dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>

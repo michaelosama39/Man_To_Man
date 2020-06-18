@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".view.fragment.MoreFragment">
+
+    <TextView
+        android:id="@+id/more_concet_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  تواصل معنا"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/logo"
+        android:drawableEnd="@drawable/ic_email_blue_24dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginTop="13dp"/>
+
+    <TextView
+        android:id="@+id/more_aboutApp_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  عن التطبيق"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/logo"
+        android:drawableEnd="@drawable/ic_about_blue_24dp"
+        android:layout_marginBottom="13dp"/>
+
+    <TextView
+        android:id="@+id/more_rate_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  تقييم التطبيق علي المتجر"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/logo"
+        android:drawableEnd="@drawable/ic_rate_blue_24dp"
+        android:layout_marginBottom="13dp"/>
+
+    <TextView
+        android:id="@+id/more_logOut_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  تسجيل خروج"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/logo"
+        android:drawableEnd="@drawable/ic_out_blue_24dp"/>
+
+</LinearLayout>

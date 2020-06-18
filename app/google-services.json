@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "778291344278",
+    "firebase_url": "https://manto-man.firebaseio.com",
+    "project_id": "manto-man",
+    "storage_bucket": "manto-man.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778291344278:android:7d0d6a67667f10c77b63b7",
+        "android_client_info": {
+          "package_name": "com.example.mantoman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778291344278-7sip39873dbolmrkhls4ignkt7n2djuh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mantoman",
+            "certificate_hash": "0fee9db34451024c07ef6b9e36cdd22b9732492a"
+          }
+        },
+        {
+          "client_id": "778291344278-mgfoskr0kjtl78qf7nr2g6h2vl0rvckq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD750-p4J4coSIhSDK_20TpX3IgFOavFRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778291344278-mgfoskr0kjtl78qf7nr2g6h2vl0rvckq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

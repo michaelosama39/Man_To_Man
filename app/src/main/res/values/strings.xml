@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Man To Man</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="scroll_page"> This application is one of the first mobile
+        applications for real estate marketing and the sale and rental of real estate
+        The service helps you quickly search for your favorite property in the fastest time,
+        at the best price, and with the best service </string>
+
+    <string-array name="governorate_spinner">
+        <item>Dakahlia</item>
+        <item>Menoufia</item>
+        <item>ِAlgharbieh</item>
+    </string-array>
+
+    <string-array name="city_spinner">
+        <item>Mansoura</item>
+        <item>Tanta</item>
+        <item>Elmahalla</item>
+    </string-array>
+</resources>
